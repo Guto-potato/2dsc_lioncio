@@ -1,29 +1,27 @@
 *{
-    font-family: arial
+    font-family: arial    
 }
 
 body{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #64577e;
+    background-color: #77573e;
 }
-
-.app{
-    background-color: #a12222;
-    padding: 20px;
-    border-radius: 12px;
+.APP {
+    background-color: #dfc699;
+    padding: 16px;
+    border-radius: 10px;    
 }
-
-input{
-    padding: 8px;
+input {
     margin: 8px 0;
+    padding: 8px;
     outline: none;
 }
-
-btn-calcular{
-    background-color: #fff;
-    color: aqua;
-    border-radius: 4px;
+#btn-calcular{
+    background-color: #77573e;
+    color: #dfc699;
     padding: 8px;
+    border-radius: 8px;
+    border-color: #493423;
 }
