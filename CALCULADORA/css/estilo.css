@@ -11,8 +11,14 @@ body{
 .APP {
     background-color: #dfc699;
     padding: 16px;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
+
+.inputs{
+    display: flex; 
+    flex-direction: column;
+}
+
 input {
     margin: 8px 0;
     padding: 8px;
@@ -25,3 +31,13 @@ input {
     border-radius: 8px;
     border-color: #493423;
 }
+
+#btn-LIMPAR{
+    background-color: #77573e;
+    color: #dfc699;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: #493423;
+}
+
+
